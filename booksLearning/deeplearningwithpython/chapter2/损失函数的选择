@@ -1,0 +1,6 @@
+幸运的是，对于分类、回归、序列预测等常见问题，你可以遵循一些简单的指导原则来选
+择正确的损失函数。例如，对于二分类问题，你可以使用二元交叉熵（binary crossentropy ）损
+失函数；对于多分类问题，可以用分类交叉熵（categorical crossentropy）损失函数；对于回归
+问题，可以用均方误差（mean-squared error ）损失函数；对于序列学习问题，可以用联结主义
+时序分类（CTC ，connectionist temporal classification ）损失函数，等等。只有在面对真正全新的
+研究问题时，你才需要自主开发目标函数。
